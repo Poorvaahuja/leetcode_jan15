@@ -15,3 +15,10 @@ The testcases will be generated such that no two matches will have the same outc
 ## Q2 Image smoother
 An image smoother is a filter of the size 3 x 3 that can be applied to each cell of an image by rounding down the average of the cell and the eight surrounding cells (i.e., the average of the nine cells in the blue smoother). If one or more of the surrounding cells of a cell is not present, we do not consider it in the average (i.e., the average of the four cells in the red smoother).
 <img width="423" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan15/assets/122693422/217ed861-e7b1-494e-8855-12973d1b6d0a">
+
+## Q3 Minimum moves to equal array elements
+Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.
+In one move, you can increment or decrement an element of the array by 1.
+Test cases are designed so that the answer will fit in a 32-bit integer.
+
+<img width="418" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan15/assets/122693422/83b28718-d551-4952-9806-25b2171a813d">
